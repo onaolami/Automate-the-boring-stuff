@@ -79,4 +79,6 @@ float()
 'I have eaten ' + 99 + ' burritos.'
 
 You can’t add string and integer together,the  99 has to be converted to string.
+I can fix it by converting the 99 to str
 
+'I have eaten ' + str(99) + ' burritos.'
