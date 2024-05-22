@@ -1,3 +1,5 @@
+#Chapter 1 practice
+
 #print(2 + 2)
 
 #print(2 + 3 * 6)
@@ -23,6 +25,7 @@
 #print("the length of your name is:")
 #print(len(myName))
 
+
 print(len("hello"))
 print('I am ' + '29' + ' years old.')
 
@@ -33,11 +36,6 @@ myAge = input ()
 
 print('I am ' + myAge + '1'+ 'years old. ')
 print("Alice" * 2)
-
-
-
-
-
 bacon = 20
 print(bacon + 1) 
 
