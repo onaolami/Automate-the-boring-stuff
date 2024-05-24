@@ -6,7 +6,7 @@ spam [3] = "hello"
 print(spam)
 
 
-# 3
+# 3,4,5
 
 letters = ['a','b', 'c', 'd']
 print(letters[3])
@@ -14,33 +14,39 @@ print(letters[:3])
 print(letters[-1])
 
 
+#6,7,8
+bacon = [3.14,'cat',11,'cat',True]
+# print(bacon.index('cat'))
+print(bacon.append(99))
+print(bacon)
+print(bacon.remove('cat'))
+print(bacon)
+
+
 
 
 #Practice project
 
 
-myList = ['apples','bananas','tofu','cats']
-for x in myList:
-    print(x)
+# myList = ['apples','bananas','tofu','cats']
+# for x in myList:
+#     print(x)
 
 
-def spam (myList):
-    num = len(myList)
-    finalList = ""
-    for x in range(num):
-        if x < num - 2:
-            finalList = finalList + myList[x] + ", "
-        elif x < num - 1:
-            finalList = finalList + myList[x] + ", and "
-        else:
-            finalList = finalList + myList[x] 
-    return finalList
+# def spam (myList):
+#     num = len(myList)
+#     finalList = ""
+#     for x in range(num):
+#         if x < num - 2:
+#             finalList = finalList + myList[x] + ", "
+#         elif x < num - 1:
+#             finalList = finalList + myList[x] + ", and "
+#         else:
+#             finalList = finalList + myList[x] 
+#     return finalList
 
 
-print(spam(myList))
-
-
-
+# print(spam(myList))
 
 
 
@@ -50,16 +56,19 @@ print(spam(myList))
 
 
 
-# spam = [['cat', 'bat'], [10, 20, 30, 40, 50,60]]
-
-# print(spam [1], [4])
-
-# spam = ['cat', 'bat', 'rat', 'elephant']
-
-# print(spam[-1])
 
 
-# eggs = ["hello","chicken"]
-# eggs.insert(1,"world")
 
-# print(eggs)
+# # spam = [['cat', 'bat'], [10, 20, 30, 40, 50,60]]
+
+# # print(spam [1], [4])
+
+# # spam = ['cat', 'bat', 'rat', 'elephant']
+
+# # print(spam[-1])
+
+
+# # eggs = ["hello","chicken"]
+# # eggs.insert(1,"world")
+
+# # print(eggs)
