@@ -21,3 +21,28 @@ Appends adds the argument to the end of the list,while the insert can add argume
 11 .What are two ways to remove values from a list?
 
   Remove and delete
+13. What is the difference between lists and tuples?
+  
+   Square bracket is used in a list,while parentheses is used in tuples
+     List is mutable while tuples is immutable
+
+
+
+14. How do you type the tuple value that has just the integer value 42 in it?
+
+tuple(42,)
+
+15. . How can you get the tuple form of a list value? How can you get the list form of a tuple value?
+   For example
+list = [42,50,28,95]
+   To get the tuple
+tuple([42,50,28,95])
+
+tuple = (42,50,28,95)
+To get the list
+list(42,50,28,95)
+
+
+16. Variables that “contain” list values don’t actually contain lists directly. What do they contain instead?
+
+They pass reference
