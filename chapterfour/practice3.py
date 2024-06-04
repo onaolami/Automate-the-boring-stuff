@@ -9,27 +9,29 @@
 #  ["bayo", "moyo", "dayo", "tayo, "shayo", "fayo", "rayo", "gbayo"]
 
 
-# Create a function that take 2 list argument
+# Create a function that takes 2 list argument
+
 # If length of the  list are not the same return empty list
-# If length of the list are equal combine list and return a single list
 
 
-def spam(list_1,list_2):
-    joint_list = list_1 + list_2
+# Create a loop 
+
+#return the joint list
+
+def spam(list_1, list_2):
+     if len(list_1) != len(list_2):
+        return []
      
-    if len(list_1) != len(list_2):
-            return []
-    
-    
-    elif len(list_1) == len(list_2):
-      return joint_list
-    
-
-
+     joint_list = []
+     for index in range(len(list_1)):
+        joint_list.append(list_1[index])
+        joint_list.append(list_2[index])
+        
+     return joint_list
 
 
 list_1 = ["bayo", "dayo", "shayo", "rayo"]
-list_2 = ["moyo", "tayo","fayo","gbayo"]
+list_2 = ["moyo", "tayo","fayo"]
 
 result = spam(list_1,list_2)
 
